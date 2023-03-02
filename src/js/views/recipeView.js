@@ -1,6 +1,6 @@
-// import icons from '../img/icons.svg'; //parcel 1
-
 import icons from 'url:../../img/icons.svg'; //parcel 2
+var fracty = require('fracty');
+import fracty from '../../../node_modules/fracty';
 
 class RecipeView {
   #parentElement = document.querySelector('.recipe');
@@ -20,13 +20,13 @@ class RecipeView {
   renderSpiner = function () {
     const markup = `
     <div class="spinner">
-      <svg>
-        <use href="${icons}#icon-loader></use>
-      </svg>
-    </div>
+          <svg>
+            <use href="${icons}#icon-loader"></use>
+          </svg>
+        </div>
     `;
-    // this.#parentElement.innerHTML = '';
-    // this.#parentElement.insertAdjecentHTML('afterbegin', markup);
+    this.#parentElement.innerHTML = '';
+    this.#parentElement.insertAdjacentHTML('afterbegin', markup);
   };
 
   #generateMarkup() {
@@ -88,22 +88,7 @@ class RecipeView {
   <div class="recipe__ingredients">
     <h2 class="heading--2">Recipe ingredients</h2>
     <ul class="recipe__ingredient-list">
-      ${this.#data.ingredients
-        .map(ing => {
-          return `
-          <li class="recipe__ingredient">
-          <svg class="recipe__icon">
-            <use href="${icons}#icon-check"></use>
-          </svg>
-          <div class="recipe__quantity">${ing.quantity}</div>
-          <div class="recipe__description">
-            <span class="recipe__unit">${ing.unit}</span>
-            ${ing.description}
-          </div>
-        </li>
-        `;
-        })
-        .join('')}  
+      ${this.#data.ingredients.map(this.#generateMarkupIngredient).join('')}  
   
     </ul>
   </div>
@@ -129,6 +114,23 @@ class RecipeView {
     </a>
   </div>`;
   }
+
+  #generateMarkupIngredient = ing => {
+    return `
+      <li class="recipe__ingredient">
+      <svg class="recipe__icon">
+        <use href="${icons}#icon-check"></use>
+      </svg>
+      <div class="recipe__quantity">${
+        ing.quantity ? fracty(ing.quantity) : ''
+      }</div>
+      <div class="recipe__description">
+        <span class="recipe__unit">${ing.unit}</span>
+        ${ing.description}
+      </div>
+    </li>
+    `;
+  };
 }
 
 export default new RecipeView();
