@@ -1,4 +1,4 @@
-4390
+4391
 55/home/milan/github/18-forkify/starter/package-lock.json1677745877850633938 0
 57/home/milan/github/18-forkify/starter/src/img/favicon.png1644221921000000000 0
 54/home/milan/github/18-forkify/starter/src/img/logo.png1644221921000000000 0
@@ -9,17 +9,17 @@
 56/home/milan/github/18-forkify/starter/src/sass/main.scss1644221921000000000 0
 60/home/milan/github/18-forkify/starter/src/sass/_preview.scss1644221921000000000 0
 66/home/milan/github/18-forkify/starter/src/sass/_searchResults.scss1644221921000000000 0
-58/home/milan/github/18-forkify/starter/src/js/controller.js1678192072884389906 0
+58/home/milan/github/18-forkify/starter/src/js/controller.js1678282229802040970 0
 65/home/milan/github/18-forkify/starter/src/js/views/resultsView.js1678190654588814858 0
 64/home/milan/github/18-forkify/starter/src/js/views/recipeView.js1678190474909054812 0
 44/home/milan/github/18-forkify/starter/src/js1677763508103958583 1
 62/home/milan/github/18-forkify/starter/dist/starter.3464ddca.js1677586957618524784 0
-65/home/milan/github/18-forkify/starter/dist/index.f7626f62.css.map1678190475049051510 0
-61/home/milan/github/18-forkify/starter/dist/icons.dfd7a6db.svg1678190475045051604 0
-60/home/milan/github/18-forkify/starter/dist/logo.726d37a8.png1678190475049051510 0
+65/home/milan/github/18-forkify/starter/dist/index.f7626f62.css.map1678281710305979258 0
+61/home/milan/github/18-forkify/starter/dist/icons.dfd7a6db.svg1678281710341978415 0
+60/home/milan/github/18-forkify/starter/dist/logo.726d37a8.png1678281710313979070 0
 60/home/milan/github/18-forkify/starter/dist/index.62406edb.js1677586957618524784 0
-53/home/milan/github/18-forkify/starter/dist/index.html1678190475045051604 0
-61/home/milan/github/18-forkify/starter/dist/icons.21bad73c.svg1678190475045051604 0
+53/home/milan/github/18-forkify/starter/dist/index.html1678281710341978415 0
+61/home/milan/github/18-forkify/starter/dist/icons.21bad73c.svg1678281710321978883 0
 77/home/milan/github/18-forkify/starter/forkify-architecture-recipe-loading.png1644221921000000000 0
 65/home/milan/github/18-forkify/starter/node_modules/terser/LICENSE1677586394521222120 0
 72/home/milan/github/18-forkify/starter/node_modules/terser/tools/exit.cjs1677586394617213967 0
@@ -94,7 +94,7 @@
 85/home/milan/github/18-forkify/starter/node_modules/type-fest/source/set-required.d.ts1677586394873192223 0
 92/home/milan/github/18-forkify/starter/node_modules/type-fest/source/require-exactly-one.d.ts1677586394865192903 0
 80/home/milan/github/18-forkify/starter/node_modules/type-fest/source/entries.d.ts1677586394709206153 0
-60/home/milan/github/18-forkify/starter/dist/index.e37f48ea.js1678192072988387507 0
+60/home/milan/github/18-forkify/starter/dist/index.e37f48ea.js1678282229818040605 0
 86/home/milan/github/18-forkify/starter/node_modules/type-fest/source/tsconfig-json.d.ts1677586394885191204 0
 67/home/milan/github/18-forkify/starter/node_modules/has-flag/license1677586394529221441 0
 75/home/milan/github/18-forkify/starter/node_modules/normalize-path/README.md1677586495630162007 0
@@ -150,7 +150,7 @@
 77/home/milan/github/18-forkify/starter/node_modules/htmlnano/docs/netlify.toml1677586395049177292 0
 84/home/milan/github/18-forkify/starter/node_modules/htmlnano/docs/docs/050-modules.md1677586395033178645 0
 84/home/milan/github/18-forkify/starter/node_modules/htmlnano/docs/docs/040-presets.md1677586395029178984 0
-63/home/milan/github/18-forkify/starter/dist/favicon.8b2f57bf.png1678190475045051604 0
+63/home/milan/github/18-forkify/starter/dist/favicon.8b2f57bf.png1678281710301979352 0
 111/home/milan/github/18-forkify/starter/node_modules/htmlnano/docs/versioned_sidebars/version-1.1.1-sidebars.json1677586395001181352 0
 83/home/milan/github/18-forkify/starter/node_modules/htmlnano/docs/versioned_sidebars1677586395001181352 1
 107/home/milan/github/18-forkify/starter/node_modules/htmlnano/docs/versioned_docs/version-2.0.0/030-config.md1677586395029178984 0
@@ -1176,6 +1176,7 @@
 89/home/milan/github/18-forkify/starter/node_modules/css-tree/lib/syntax/node/WhiteSpace.js1677586395165167479 0
 82/home/milan/github/18-forkify/starter/node_modules/caniuse-lite/data/regions/AF.js1677586394697207172 0
 94/home/milan/github/18-forkify/starter/node_modules/css-tree/lib/syntax/node/DeclarationList.js1677586394981183051 0
+68/home/milan/github/18-forkify/starter/src/js/views/paginationView.js1678282197810768757 0
 84/home/milan/github/18-forkify/starter/node_modules/css-tree/lib/syntax/node/index.js1677586395049177292 0
 87/home/milan/github/18-forkify/starter/node_modules/css-tree/lib/syntax/node/Selector.js1677586395133170185 0
 87/home/milan/github/18-forkify/starter/node_modules/css-tree/lib/syntax/node/Function.js1677586395017179999 0
@@ -1472,7 +1473,7 @@
 138/home/milan/github/18-forkify/starter/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/side-effects-package-redirect-down1677586395217163080 1
 61/home/milan/github/18-forkify/starter/node_modules/css-select1677586394857193583 1
 139/home/milan/github/18-forkify/starter/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/package-main-directory/package.json1677586395197164772 0
-64/home/milan/github/18-forkify/starter/dist/index.e37f48ea.js.map1678192072988387507 0
+64/home/milan/github/18-forkify/starter/dist/index.e37f48ea.js.map1678282229818040605 0
 61/home/milan/github/18-forkify/starter/node_modules/base-x/src1677586394561218723 1
 142/home/milan/github/18-forkify/starter/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/package-main-directory/nested/index.js1677586394997181692 0
 95/home/milan/github/18-forkify/starter/node_modules/caniuse-lite/data/features/resizeobserver.js1677586395317154621 0
@@ -1538,7 +1539,7 @@
 87/home/milan/github/18-forkify/starter/node_modules/@parcel/core/lib/summarizeRequest.js1677586395177166463 0
 88/home/milan/github/18-forkify/starter/node_modules/postcss-value-parser/lib/stringify.js1677586394557219063 0
 81/home/milan/github/18-forkify/starter/node_modules/escape-string-regexp/readme.md1677586394529221441 0
-53/home/milan/github/18-forkify/starter/src/js/model.js1678192037025217133 0
+53/home/milan/github/18-forkify/starter/src/js/model.js1678192429452135254 0
 65/home/milan/github/18-forkify/starter/node_modules/css-select/lib1677586394889190865 1
 76/home/milan/github/18-forkify/starter/node_modules/@parcel/core/lib/types.js1677586395209163757 0
 84/home/milan/github/18-forkify/starter/node_modules/postcss-value-parser/lib/index.js1677586394521222120 0
@@ -2878,7 +2879,7 @@
 57/home/milan/github/18-forkify/starter/node_modules/stable1677586394529221441 1
 67/home/milan/github/18-forkify/starter/node_modules/msgpackr/pack.js1677586394857193583 0
 66/home/milan/github/18-forkify/starter/node_modules/clone/clone.iml1677586394617213967 0
-50/home/milan/github/18-forkify/starter/src/js/views1678188261684908843 1
+50/home/milan/github/18-forkify/starter/src/js/views1678192628583509557 1
 71/home/milan/github/18-forkify/starter/node_modules/stable/stable.min.js1677586394549219742 0
 92/home/milan/github/18-forkify/starter/node_modules/@parcel/packager-html/lib/HTMLPackager.js1677586394525221780 0
 67/home/milan/github/18-forkify/starter/node_modules/stable/README.md1677586394521222120 0
@@ -2952,7 +2953,7 @@
 81/home/milan/github/18-forkify/starter/node_modules/csso/lib/replace/Percentage.js1677586394929187468 0
 86/home/milan/github/18-forkify/starter/node_modules/caniuse-lite/data/features/http2.js1677586395265159019 0
 66/home/milan/github/18-forkify/starter/node_modules/srcset/index.js1677586394513222800 0
-61/home/milan/github/18-forkify/starter/dist/index.f7626f62.css1678190475045051604 0
+61/home/milan/github/18-forkify/starter/dist/index.f7626f62.css1678281710297979445 0
 120/home/milan/github/18-forkify/starter/node_modules/@parcel/node-resolver-core/test/fixture/packages/source-alias/dist.js1677586394905189506 0
 76/home/milan/github/18-forkify/starter/node_modules/@parcel/core/lib/utils.js1677586395213163418 0
 142/home/milan/github/18-forkify/starter/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/side-effects-false-glob/sub/a/index.js1677586395033178645 0
@@ -3876,7 +3877,7 @@
 82/home/milan/github/18-forkify/starter/node_modules/caniuse-lite/data/regions/FJ.js1677586395253160035 0
 111/home/milan/github/18-forkify/starter/node_modules/@parcel/core/test/fixtures/config-plugin-not-found/.parcelrc1677586394741203435 0
 107/home/milan/github/18-forkify/starter/node_modules/@parcel/core/test/fixtures/invalid-target-source-missing1677586395233161727 1
-42/home/milan/github/18-forkify/starter/dist1678192072988387507 1
+42/home/milan/github/18-forkify/starter/dist1678282229818040605 1
 90/home/milan/github/18-forkify/starter/node_modules/css-tree/lib/syntax/node/Declaration.js1677586394977183391 0
 120/home/milan/github/18-forkify/starter/node_modules/@parcel/core/test/fixtures/invalid-target-source-missing/package.json1677586395233161727 0
 96/home/milan/github/18-forkify/starter/node_modules/@parcel/core/test/fixtures/library-scopehoist1677586395237161388 1
