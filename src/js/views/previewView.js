@@ -1,7 +1,7 @@
 import View from './View';
 import icons from 'url:../../img/icons.svg'; //parcel 2
 class PreviewView extends View {
-  _parentElement = "document.querySelector('');";
+  _parentElement = document.querySelector('*');
 
   _generateMarkup(result) {
     const id = window.location.hash.slice(1);
